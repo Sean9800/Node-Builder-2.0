@@ -1,1 +1,15 @@
+<!-- instructions -->
+4) Switch to <b>Calibrate GPS</b> mode and click 3+ spots whose real-world latitude/longitude you know (e.g. look them up on Google Maps) - this teaches the tool how pixels map to real coordinates, so every node gets a lat/lng automatically.
 
+<!-- mode button -->
+<button id="modeCalib">Calibrate GPS</button>
+
+<!-- sidebar panel -->
+<div class="card">
+  <div class="row" style="justify-content:space-between;">
+    <strong>GPS calibration (<span id="calibCount">0</span>)</strong>
+    <button id="clearCalib" class="danger">Clear</button>
+  </div>
+  <div id="calibStatus">Add 3+ points to enable lat/lng conversion.</div>
+  <ul id="calibList"></ul>
+</div>
