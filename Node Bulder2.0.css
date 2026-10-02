@@ -1,1 +1,3 @@
-
+#calibStatus{font-size:12.5px;margin-bottom:8px;}
+#calibStatus.ok{color:#1E4C52;}
+#calibStatus.bad{color:#a8452f;}
